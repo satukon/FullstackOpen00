@@ -2,8 +2,12 @@
 sequenceDiagram
     Selain ->> Palvelin: HTTP POST, uuden muistiinpanon lähetys palvelimelle
     Palvelin--x Selain: Uudelleenohjauspyyntö palvelimelta (302)
-    Selain ->> Palvelin: HTTP GET, notes uudelleenlataus
-    Selain ->> Palvelin: HTTP GET, main.css uudelleenlataus
-    Selain ->> Palvelin: HTTP GET, main.js uudelleenlataus
-    Selain ->> Palvelin: HTTP GET, data.json uudelleenlataus
+    Selain ->> Palvelin: HTTP GET notes 
+    Palvelin--x Selain: notes tiedosto
+    Selain ->> Palvelin: HTTP GET main.css
+    Palvelin--x Selain: main.css tiedosto
+    Selain ->> Palvelin: HTTP GET main.js 
+    Palvelin--x Selain: main.js tiedosto
+    Selain ->> Palvelin: HTTP GET data.json
+    Palvelin--x Selain: data.json tiedoston data
 ```
