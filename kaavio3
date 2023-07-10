@@ -1,0 +1,5 @@
+```mermaid
+sequenceDiagram
+    Selain ->> Palvelin: HTTP POST + uusi muistiinpano JSON-muodossa
+    Palvelin--x Selain: Statuskoodi 201 Created
+```
