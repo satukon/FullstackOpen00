@@ -1,3 +1,4 @@
+```mermaid
 sequenceDiagram
     Selain ->> Palvelin: HTTP GET spa 
     Palvelin--x Selain: spa tiedosto
@@ -7,3 +8,4 @@ sequenceDiagram
     Palvelin--x Selain: spa.js tiedosto
     Selain ->> Palvelin: HTTP GET data.json
     Palvelin--x Selain: data.json tiedoston data
+```
