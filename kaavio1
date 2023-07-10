@@ -1,7 +1,9 @@
 ```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+sequenceDiagram
+    Selain ->> Palvelin: HTTP POST, uuden muistiinpanon lähetys palvelimelle
+    Palvelin--x Selain: Uudelleenohjauspyyntö palvelimelta (302)
+    Selain ->> Palvelin: HTTP GET, notes uudelleenlataus
+    Selain ->> Palvelin: HTTP GET, main.css uudelleenlataus
+    Selain ->> Palvelin: HTTP GET, main.js uudelleenlataus
+    Selain ->> Palvelin: HTTP GET, data.json uudelleenlataus
 ```
