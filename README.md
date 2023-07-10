@@ -1,2 +1,2 @@
-# FullstackOpen01
-Osion 1 tehtävät 0.4 - 0.6
+# FullstackOpen00
+Osion 0 tehtävät 0.4 - 0.6
