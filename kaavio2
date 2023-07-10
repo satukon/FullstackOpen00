@@ -1,0 +1,9 @@
+sequenceDiagram
+    Selain ->> Palvelin: HTTP GET spa 
+    Palvelin--x Selain: spa tiedosto
+    Selain ->> Palvelin: HTTP GET main.css
+    Palvelin--x Selain: main.css tiedosto
+    Selain ->> Palvelin: HTTP GET spa.js 
+    Palvelin--x Selain: spa.js tiedosto
+    Selain ->> Palvelin: HTTP GET data.json
+    Palvelin--x Selain: data.json tiedoston data
