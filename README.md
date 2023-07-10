@@ -1,2 +1,2 @@
 # FullstackOpen01
-Osio 1 tehtävät
+Osion 1 tehtävät 0.4 - 0.6
